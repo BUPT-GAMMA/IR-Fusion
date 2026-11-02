@@ -1,0 +1,23 @@
+{
+  "train_csv": "output/processed/full120/splits/train.csv",
+  "val_csv": "output/processed/full120/splits/test.csv",
+  "dataroot": "output/processed/full120",
+  "run_dir": "output/runs/base",
+  "epochs": 100,
+  "batch_size": 4,
+  "num_workers": 4,
+  "lr": 0.0002,
+  "weight_decay": 0.0005,
+  "loss": "l1",
+  "hotspot_ratio": 0.9,
+  "target_scale": 1000.0,
+  "augment_rotations": true,
+  "oversample_fake": 1,
+  "oversample_real": 5,
+  "amp": true,
+  "clip_grad_norm": 1.0,
+  "freeze_batchnorm": false,
+  "seed": 0,
+  "cpu": false,
+  "gpu": 0
+}

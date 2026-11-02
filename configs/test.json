@@ -1,0 +1,12 @@
+{
+  "checkpoint": "output/runs/final_finetune/best_mae.pth",
+  "test_csv": "output/processed/full120/splits/test.csv",
+  "dataroot": "output/processed/full120",
+  "output_dir": "output/eval/final",
+  "batch_size": 4,
+  "num_workers": 4,
+  "hotspot_ratio": 0.9,
+  "save_predictions": true,
+  "cpu": false,
+  "gpu": 0
+}
